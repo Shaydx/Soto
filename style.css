@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.splash {
+    background: url(soto5.png) no-repeat;
+    height: 100vh;
+    width: 937px;
+    margin: 0 auto;
+    z-index: -100;
+}
+
+.logo {
+    position: absolute;
+    overflow: hidden;
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+    top: 5%;
+    left: 5%;
+}
+
+nav {
+    position: absolute;
+    overflow: hidden;
+    top: 5%;
+    left: 80%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline;
+    padding: 8px;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+}
+
+li a {
+    text-decoration: none;
+    color: #d5136a;
+    padding: 8px 0 2px 0;
+}
